@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-style: italic;
+            font-size: medium;
+            background-color: rgb(222, 210, 176);
+           
+        }
+        
+        header{
+            height: 5em;
+            width: 100%;
+            background-color: rgba(173, 146, 107, 0.92);
+            border-radius: 15px;
+        }
+        select{
+            height: 3em;
+            width: 100%;
+            background-color: rgb(174, 146, 99);
+            border-radius: 15px;
+        }
+        select:hover{
+
+ background-color: rgb(223, 196, 145);
+        }
+        button:hover{
+background-color: rgb(84, 161, 135);
+        }
+        main{
+            font-family: inherit;
+
+        }
+     
+        fieldset{
+            width: max-content;
+            line-heigHT: 2EM;
+            background-color: rgb(159, 129, 82);
+            border-radius: 25px;
+            
+        }
+        .z{
+            display: flex;
+            place-content: center;
+            justify-content: center;
+        }
+       
+        .m{
+            display: flex;
+            place-content: center;
+            justify-content: left;
+        }
+        button{
+            
+            width: 15%;
+            height: 5em;
+            border-radius: 5em;
+            background-color: rgb(234, 179, 103);
+        } 
+        button:hover{
+            background-color: rgb(230, 192, 130);
+        }
+        
+        .q{
+            display: flex;
+            place-content: center;
+            justify-content: right;
+        }
+        .C{
+            width: 15%;
+            height: 2em;
+        }
+        .y{
+             
+            width: 15%;
+            height: 5em;
+            border-radius: 5em;
+            
+        }
+        input:hover{
+            background-color: rgb(230, 192, 130);
+        }
+        input{
+            width: 75%;
+            height: 3.5em;
+            background-color: rgb(234, 179, 103);
+            border-radius: 5em;
+        }
+        table{
+           color: azure;
+            border: 2px solid black;
+            padding: 5px;
+            border-radius: 50px;
+           
+        }
+        table thead td{
+            border-radius: 50px;
+            padding: 2em;
+           
+          
+        }
+        table tbody td{
+            background-color: rgb(110, 173, 173);
+            padding: 2em;
+            
+            border: 2px solid black;
+            border-radius: 5em;
+        }
+        table thead tr td :nth-child(even){
+            background-color: rgb(213, 214, 213);
+        }
+        table thead  tr :hover{
+            background-color: rgb(165, 167, 165);
+        }
+        table tfoot tr :hover{
+            background-color: rgb(161, 165, 161);
+        }
+        table tbody  tr :hover{
+            background-color: rgb(184, 190, 186);
+        }
+        table tfoot td{
+            background-color: rgb(46, 45, 45);
+            padding: 2em;
+            border-radius: 25em;
+            border: 2px solid black;
+        }
+      
+    
+        footer{
+            width: 100%;
+            height: 25em;
+            background-color: rgba(236, 172, 77, 0.79);
+          
+        }
+     
+        p{
+            display: flex;
+            place-content: center;
+            justify-content: center; 
+        }
+        h1{
+            display: grid;
+            place-content: center;
+            text-shadow: rgb(60, 116, 172) right;
+        }
+     
+    </style>
+</head>
+<body>
+    <header>
+<select name="menu">
+    <option value="home">home</option>
+    <option value="contact us">contact us</option>
+    <option value="content">content</option>
+
+</select>
+ 
+    </header>
+    <main> 
+        
+        <h1>B_CREATION PLC</h1>
+        <P> THIS COMPANY IS CREATED BY BIRUKTAWIT MEKONENN IN 2014. TO HELP OTHERS BE COME GOOD AT THE THINGS THEY ARE NOT:) </P>
+        <BR></BR>
+         
+        <article class="z">
+        <fieldset>
+            <legend align="center">FORM</legend>
+    <form action="get">
+        <label id="U">
+        FRIST NAME
+        </label>
+        <br>
+        <input name="FNAME" type="text" id="U">
+        <br>
+        <label id="Y">
+        MIDDEL NAME
+        </label> <br>
+        <input name="MNAME" type="text" id="Y">
+        <br>
+        <label id="I">
+        LAST NAME
+         </label> <br>
+        <input name="LNAME"  type="text" id="I">
+        <br>
+        <br>
+        <label id="F">
+            Gender
+            </label> <br> 
+
+    Female    <input  CLASS="C" type="radio" name="checkbox" value="checkbox" >      Male<input CLASS="C" type="radio" name="checkbox" value="checkbox" > 
+
+         <label id="C">
+            checkbox
+            </label> 
+
+        <input CLASS="C" type="checkbox" name="checkbox" value="checkbox">
+        </BR></BR>
+        <div class="m">
+            <br>
+            <input class="z" type="reset" name="reset" value="reset">
+            </div>
+        
+       <br>
+        <label id="P">
+            COMMENT
+             </label>   <br>
+<textarea id="P" maxlength="40" cols="95" rows="4"  value="comment" type="textarea" name="your comment..">
+
+</textarea>
+
+    </form>
+</fieldset>
+<br>
+ 
+
+ 
+<br>
+
+ 
+</article>
+<a class="z" href="tnext.html"><button>submit</button></a>
+<br>
+<br>
+<div class="z"> 
+<table >
+   <thead>
+    <tr>
+        <td>__</td>
+        <td>__</td>
+        <td>__</td>
+        <td>__</td>
+        <td><*|</td>
+    </tr>
+    
+   </thead>
+   
+ <tbody>
+<tr>
+    <td>c</td>
+    <td>()</td>
+    <td>%</td>
+    <td>/</td>
+    <td>sin</td>
+</tr>
+<tr>
+    <td>7</td>
+    <td>8</td>
+    <td>9</td>
+    <td>*</td>
+    <td>cos</td>
+</tr>
+<tr>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+    <td>-</td>
+    <td>tan</td>
+</tr>
+<tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>+</td>
+    <td>log</td>
+</tr>
+</tbody>
+<tfoot>
+    <tr>
+        <td>+/-</td>
+        <td>0</td>
+        <td>.</td>
+        <td>=</td>
+        <td>ln</td>
+    </tr>
+
+</tfoot>
+   
+    
+</table>
+</div>
+   
+ 
+    
+    </main>
+    <footer>
+  <p>contact us</p>
+<br>
+<br>
+  <img src="img/pngimg.com - instagram_PNG12.png" width="50" height="50">  B_CREATION<br>
+  <img src="img/pngimg.com - telegram_PNG22.png" width="50" height="50"> B_CREATION <br> 
+  <img src="img/pngimg.com - facebook_logos_PNG19756.png" width="50" height="50"> B_CREATION <br>
+  <img src="img/pngimg.com - phone_PNG463.png" width="50" height="50"> B_CREATION <br>
+  
+    </footer>
+</body>
+</html>
